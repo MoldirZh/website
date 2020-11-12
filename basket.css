@@ -1,0 +1,49 @@
+/* Column container */
+.content { 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar */
+.side_content {
+    flex: 15%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/*styling lists*/
+.side_content ul {
+    list-style: none;
+}
+
+/*styling links*/
+.side_content a {
+    float: center; /* Make sure that the links stay side-by-side */
+    display: flex; /* Change the display to flex*/
+    color: black; /* Black text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+}
+
+/*links on a mouse hover*/
+.side_content a:hover {
+    background-color: #aaa;
+    color: white; /*change text color on hover*/ 
+}
+
+/* Main column */
+.main_content { 
+    flex: 85%;
+    background-color: white;
+    padding: 20px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 15px;
+}

@@ -1,0 +1,98 @@
+/* Column container */
+.content { 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar */
+.side_content {
+    flex: 15%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/*styling lists*/
+.side_content ul {
+    list-style: none;
+}
+
+/*styling links*/
+.side_content a {
+    float: center; /* Make sure that the links stay side-by-side */
+    display: flex; /* Change the display to flex*/
+    color: black; /* Black text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+}
+
+/*links on a mouse hover*/
+.side_content a:hover {
+    background-color: #aaa;
+    color: white; /*change text color on hover*/ 
+}
+
+/* Main column */
+.main_content { 
+    flex: 85%;
+    background-color: white;
+    padding: 20px;
+}
+
+/*product styling*/
+.product {
+  padding: 15px;
+  background-color: #f1f1f1;
+  max-width: 100%;
+}
+
+/*style the product name*/
+.pro_name {
+  float: center;
+}
+
+/*style the product image*/
+.pro_image {
+  max-width: 100%;
+  padding: 20px;
+}
+
+/*comments styling*/
+.comment {
+  background-color: #f1f1f1;
+  max-width: 100%;
+  padding: 15px;
+}
+
+.review_login {
+  padding: 20px;
+  background-color: #aaa;
+}
+
+.review_add {
+  padding: 20px;
+  background-color: #aaa;
+}
+
+/*styling each review*/
+.review_show {
+  padding: 20px;
+  background-color: #aaa;
+}
+
+/*the person who left the review*/
+.review_user {
+  font-size: 10px;
+}
+
+/*date of the review*/
+.review_date {
+  font-size: 10px;
+}
+
+/*text of the review*/
+.review_text {
+  font-size: 16px;
+}
+

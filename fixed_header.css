@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/*style the top div*/
+.top {
+	overflow: hidden;
+	padding: 10px;
+	background-color: #f1f1f1;
+}
+
+/*style images like instagram link*/
+.top img {
+	float: left;
+}
+
+/*style the text on the top*/
+.top a.text {
+	display: block;
+	text-decoration: none;
+  float: right;
+	padding: 0px 10px 0px 10px;
+  color: black;
+}
+
+/*style the links on hover*/
+.top a.text:hover {
+	background-color: #adadad; /* Dark background color */
+    color: white; /* White text color */
+}
+
+/* Header/logo Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #f95e76;
+}
+
+/*style the logo*/
+.header img {
+	clear: left;
+}
+
+/* Increase the text size of the heading */
+.header a {
+  font-size: 40px;
+	text-decoration: none;
+  color: white;
+}
+
+
+/* Style the top navigation bar */
+.header_navigation {
+    width: 100%;
+    overflow: hidden; /* Hide overflow */
+    background-color: #333; /* Dark background color */
+}
+
+/* Style the navigation bar links */
+.header_navigation a {
+    width: 33%;/*width of each link*/
+    float: center;/*float the text to the center*/
+    clear: center; /* Make sure that the links stay side-by-side */
+    display: inline-block; /* Change the display to block*/
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 0; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Change color on hover/mouse-over */
+.header_navigation a:hover {
+    background-color: #ddd; /* Grey background color */
+    color: black; /* Black text color */
+}
+
+
